@@ -1,0 +1,8 @@
+test1.m, test2.m, ... test4.m are the 4 source codes. input data are written in to these source files as TrainingSet (the matrix storing input data without rating) and GroupTrain (the column vector storing relative rating outputs.). And TestSet is storing the test datasets we want to predict, the predicted results are stored as the column vector results.
+multisvm.m is the multiclass svm function we implemented to learn.
+
+When you are using the programs. You need to type in the Matlab Console in current path:
+
+test1
+
+and you got the outputs (the difference between predicted values and correct results) in the console.
